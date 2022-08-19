@@ -1,0 +1,82 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+.banner {
+    height: 117px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+#logoheader {
+    margin-left: 6vw;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    margin-right: 7vw;
+    gap: 3vw;
+}
+
+.hmenu {
+    display: flex;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+}
+
+@media (max-width:525px) {
+    .navigation {
+        flex-direction: column;
+    }
+
+    .hmenu {
+        font-size: 15px;
+    }
+}
+
+.rodape {
+    height: 207px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #2E948A;
+}
+
+.navigation2 {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;           
+}
+.fmenu{
+    display: flex;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;    
+}
+
+.fbuttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+}
+@media (max-width: 580px){
+    .navigation2{
+        display: none;
+    }
+    #logofooter{
+        width: 152px;
+        height: 48px;
+    }
+}
