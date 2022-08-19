@@ -43,6 +43,80 @@
     }
 }
 
+.corpo {
+    display: flex;
+    justify-content: space-around;    
+    margin-top: 82px;
+    margin-bottom: 39px;
+}
+.formulario{
+    margin-left: 20px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FF4081;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;    
+    background: #FFFFFF;
+    width: 35vw;
+    height: 419px;
+    margin-top: 44px;
+}
+
+#nome {
+    border-radius: 7px;
+    border: 1px solid #686868;
+    padding: 6px 6px 6px 18px;
+}
+
+#email {
+    border-radius: 7px;
+    border: 1px solid #686868;
+    padding: 6px 6px 6px 18px;
+}
+
+#mensagem {
+    border-radius: 7px;
+    border: 1px solid #686868;
+    padding: 6px 6px 180px 18px;
+}
+
+#buttonform {
+    width: 108px;
+    height: 32px;
+    background: #FF4081;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    border: none;
+}
+.imgcontato{
+    display: flex;
+    align-items: center;
+    margin-top: -100px;
+}
+#imgcontato{
+    width: 100%      
+}
+@media (max-width:525px){
+    .imgcontato{
+        display: none;
+    }
+    #form{
+        width: 80vw;
+    }
+}
+
 .rodape {
     height: 207px;
     display: flex;
@@ -54,15 +128,16 @@
 .navigation2 {
     display: flex;
     flex-direction: column;
-    gap: 7px;           
+    gap: 7px;
 }
-.fmenu{
+
+.fmenu {
     display: flex;
     text-decoration: none;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-    color: #FFFFFF;    
+    color: #FFFFFF;
 }
 
 .fbuttons {
@@ -71,11 +146,13 @@
     align-items: center;
     gap: 13px;
 }
-@media (max-width: 580px){
-    .navigation2{
+
+@media (max-width: 580px) {
+    .navigation2 {
         display: none;
     }
-    #logofooter{
+
+    #logofooter {
         width: 152px;
         height: 48px;
     }
