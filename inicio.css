@@ -1,0 +1,267 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+.banner {
+    height: 117px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+#logoheader {
+    margin-left: 6vw;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    margin-right: 7vw;
+    gap: 3vw;
+}
+
+.hmenu {
+    display: flex;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+}
+
+@media (max-width:525px) {
+    .navigation {
+        flex-direction: column;
+    }
+
+    .hmenu {
+        font-size: 15px;
+    }
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 125px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    color: #FF4081;
+}
+
+.toptext {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #555555;
+    margin-top: 19px;
+    margin-bottom: 38px;
+}
+
+.topr {
+    margin-top: 10px;
+}
+
+.midup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 175px;
+    flex-wrap: wrap;
+}
+
+.caixamid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#ilustrap {
+    height: 270px;
+    width: 288px;
+}
+
+#ilustrainv {
+    height: 270px;
+    width: 238px;
+}
+
+#ilustraind {
+    height: 270px;
+    width: 187px;
+}
+
+.subtmidup {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FF4081;
+    margin-top: 45px;
+}
+
+.textmidup {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-top: 23px;
+    margin-bottom: 26px;
+}
+
+.middown {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 236px;
+}
+
+.middownicotext {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+
+.middowntextsign {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 50px;
+    color: #009688;
+}
+
+.middownl {
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+}
+
+.middownr {
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+    margin-top: 135px;
+}
+
+.middowntext {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.middownsign {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+
+h3 {
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+    color: #009688;
+    margin-top: 246px;
+    margin-left: 128px;
+}
+
+.bot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 73px;
+    align-items: flex-start;
+    gap: 109px;
+    flex-wrap: wrap;
+}
+
+.caixabot {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.subtbot {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+    color: #009688;
+}
+
+.textbot {
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+.botbutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 101px;
+    margin-bottom: 53px;
+}
+
+.rodape {
+    height: 207px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #2E948A;
+}
+
+.navigation2 {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.fmenu {
+    display: flex;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.fbuttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+}
+
+@media (max-width: 580px) {
+    .navigation2 {
+        display: none;
+    }
+
+    #logofooter {
+        width: 152px;
+        height: 48px;
+    }
+}
+
+@media (max-width: 780px) {
+    .topr {
+        display: none;
+    }
+}
