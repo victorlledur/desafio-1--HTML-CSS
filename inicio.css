@@ -123,6 +123,7 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     margin-top: 236px;
+    flex-wrap: wrap;
 }
 
 .middownicotext {
@@ -181,6 +182,11 @@ h3 {
     color: #009688;
     margin-top: 246px;
     margin-left: 128px;
+}
+.titlebot{
+    flex: 0 1 auto;
+    align-self: flex-start;
+    flex-basis: 1450px;
 }
 
 .bot {
@@ -252,6 +258,9 @@ h3 {
 @media (max-width: 580px) {
     .navigation2 {
         display: none;
+    }
+    .titlebot{
+        margin-left: -23%;
     }
 
     #logofooter {
