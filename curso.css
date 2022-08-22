@@ -1,0 +1,172 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+.banner {
+    height: 117px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+#logoheader {
+    margin-left: 6vw;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    margin-right: 7vw;
+    gap: 3vw;
+}
+
+.hmenu {
+    display: flex;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+}
+
+@media (max-width:525px) {
+    .navigation {
+        flex-direction: column;
+    }
+
+    .hmenu {
+        font-size: 15px;
+    }
+}
+main{
+    background: #F7F7F7;
+}
+
+.topcurso {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    padding-bottom: 81px;
+    padding-right: 50px;
+    background: white;
+}
+
+.topcursol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.topcursor {
+    margin-right: 100px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+    color: #FF4081;
+}
+
+.texttopcurso {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.aula {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 75px;
+    padding-bottom: 73px;
+    background: #F7F7F7;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.infoframe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2,
+h3,
+h4 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+.textaula {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+hr {
+    height: 5px;
+    width: 90vw;
+    background: #C4C4C4;
+    margin: auto;
+}
+
+@media (max-width: 880px) {
+    .topcursor {
+        display: none;
+    }
+
+    .aula {
+        flex-wrap: wrap;
+    }
+}
+
+.rodape {
+    height: 207px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #2E948A;
+}
+
+.navigation2 {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.fmenu {
+    display: flex;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.fbuttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+}
+
+@media (max-width: 580px) {
+    .navigation2 {
+        display: none;
+    }
+
+    #logofooter {
+        width: 152px;
+        height: 48px;
+    }
+}
