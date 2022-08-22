@@ -43,7 +43,7 @@
     }
 }
 main{
-    background: #E5E5E5;
+    background: #F7F7F7;
 }
 
 .top {
@@ -51,7 +51,7 @@ main{
     justify-content: space-evenly;
     padding-top: 125px;
     padding-bottom: 87.5px;
-    background: #F7F7F7;
+    background-color: white;
 }
 
 h1 {
@@ -129,7 +129,7 @@ h1 {
     display: flex;
     justify-content: space-evenly;    
     flex-wrap: wrap;
-    background: #F7F7F7;
+    background: white;
     padding-top: 120px;
     padding-bottom: 120px;
 }

@@ -43,78 +43,83 @@
     }
 }
 
-.corpo {
-    margin: 0;
-    display: flex;
-    justify-content: space-around;    
-    padding-top: 82px;
-    padding-bottom: 39px;
-}
-.formulario{
-    margin-left: 20px;
-}
-
 h1 {
     font-weight: 700;
-    font-size: 40px;
-    line-height: 46px;
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: capitalize;
     color: #FF4081;
 }
 
-#form {
+.subtcursos {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #555555;
+}
+
+.titlecursos {
     display: flex;
-    flex-direction: column;    
-    width: 35vw;
-    height: 419px;
-    margin-top: 44px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 82px;
+    padding-top: 81px;
+    padding-bottom: 95px;
 }
 
-#nome {
-    border-radius: 7px;
-    border: 1px solid #686868;
-    padding: 6px 6px 6px 18px;
-}
-
-#email {
-    border-radius: 7px;
-    border: 1px solid #686868;
-    padding: 6px 6px 6px 18px;
-}
-
-#mensagem {
-    border-radius: 7px;
-    border: 1px solid #686868;
-    padding: 6px 6px 180px 18px;
-}
-
-#buttonform {
-    width: 108px;
-    height: 32px;
-    background: #FF4081;
-    border-radius: 50px;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 22px;
-    text-align: center;
-    text-transform: lowercase;
-    color: #FFFFFF;
-    border: none;
-}
-.imgcontato{
+.caixacursos {
     display: flex;
-    align-items: center;
-    margin-top: -100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 53px;
+    padding-bottom: 68px;
 }
-#imgcontato{
-    width: 100%      
+.caixacursos1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 53px;
+    padding-bottom: 68px;
+    padding-top: 107px;
 }
-@media (max-width:525px){
-    .imgcontato{
-        display: none;
-    }
-    #form{
-        width: 80vw;
-    }
+.caixacursos2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 53px;
+    padding-bottom: 202px;
+    padding-top: 93px;
+}
+
+.infocursos1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 53px;
+}
+
+h2,
+h3,
+h4 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+    margin-top: -40px;
+}
+
+.textinfo1 {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: -16px;
+}
+hr{
+    height: 5px;
+    width: 90vw;
+    background: #C4C4C4;
+    margin: auto;
 }
 
 .rodape {
