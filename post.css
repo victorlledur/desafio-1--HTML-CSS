@@ -190,10 +190,11 @@ h4 {
     }
 }
 @media (max-width:1050px){
-    .postbodytop{
-        width: auto;
+    #imgpost{
+        width: 90vw;
     }
 }
+
 
 .rodape {
     height: 207px;
