@@ -1,0 +1,237 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+.banner {
+    height: 117px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+#logoheader {
+    margin-left: 6vw;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    margin-right: 7vw;
+    gap: 3vw;
+}
+
+.hmenu {
+    display: flex;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+}
+
+@media (max-width:525px) {
+    .navigation {
+        flex-direction: column;
+    }
+
+    .hmenu {
+        font-size: 15px;
+    }
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    color: #FF4081;
+    margin: auto;
+}
+
+.titledate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 111px;
+    padding-bottom: 74px;
+}
+
+.postdate {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #9D9D9D;
+    margin: auto;
+}
+
+.postbodytop {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding-bottom: 90px;
+    align-items: center;
+}
+
+.posttext {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 21px;
+    color: #419488;
+    margin-left: -410px;
+}
+h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 21px;
+    color: #419488;
+    margin-left: -485px;
+}
+
+.postbodymid {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    padding-bottom: 90px;
+    align-items: center;    
+}
+
+.postbodybot {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    padding-bottom: 90px;
+    align-items: center;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    color: #FF4081;
+}
+
+.titlebot {
+    background: #F7F7F7;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.midup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 87.5px;
+    padding-bottom: 110px;
+    flex-wrap: wrap;
+    background: #F7F7F7;
+}
+
+.caixamid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#ilustrap {
+    height: 270px;
+    width: 288px;
+}
+
+#ilustrainv {
+    height: 270px;
+    width: 238px;
+}
+
+#ilustraind {
+    height: 270px;
+    width: 187px;
+}
+
+.subtmidup {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FF4081;
+    margin-top: 45px;
+}
+
+.textmidup {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-top: 23px;
+    margin-bottom: 26px;
+}
+@media (max-width: 990px){
+    h2, h3{
+        margin: auto;
+    }
+}
+@media (max-width:1050px){
+    .postbodytop{
+        width: auto;
+    }
+}
+
+.rodape {
+    height: 207px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #2E948A;
+}
+
+.navigation2 {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.fmenu {
+    display: flex;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.fbuttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+}
+
+@media (max-width: 580px) {
+    .navigation2 {
+        display: none;
+    }
+
+    #logofooter {
+        width: 152px;
+        height: 48px;
+    }
+}
